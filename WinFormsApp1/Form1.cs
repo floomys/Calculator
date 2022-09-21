@@ -138,7 +138,8 @@ namespace WinFormsApp1
             }
             else
             {
-                textBox1.Text.Replace("-", "");
+                textBox1.Text = textBox1.Text.Replace("-", "");
+                sign = true;
             }
         }
 
